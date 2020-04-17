@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value = "ZInkitMod"/>
+	<Id value = "ZInkitMod"/>
+	<Version value = "e1.0.0"/>
+	<DefaultModule value="false"/>
+	<SingleplayerModule value="true"/>
+  	<Official value="false" />
+	<DependedModules>
+		<DependedModule Id="Native"/>
+	</DependedModules>
+	<SubModules>
+
+	</SubModules>
+	<Xmls>
+		<XmlNode>                
+			<XmlName id="Items" path="inkitems"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+	</Xmls>
+</Module>

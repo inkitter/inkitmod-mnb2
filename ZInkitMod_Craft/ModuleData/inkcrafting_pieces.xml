@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CraftingPieces>
+  <CraftingPiece is_default="true" id="ink_blade" name="{=inkblade1}Inkit Blade" tier="1" piece_type="Blade" mesh="aserai_blade_11" culture="Culture.aserai" length="115" weight="0.01">
+    <PieceUsages unavailable_usages="" />
+    <BuildData move_diff="-10" top_diff="5"/>
+    <BladeData sharpness="5" physics_material="metal_weapon" body_name="bo_sword_one_handed" holster_mesh="aserai_blade_11_scabbard_11">
+    <StatContributions handling_bonus="50" swing_damage_bonus="70" swing_speed_bonus="70" thrust_damage_bonus="50" thrust_speed_bonus="50" armor_bonus="50" />
+      <Thrust damage_type="Pierce" damage_factor="12" />
+      <Swing damage_type="Cut" damage_factor="150" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="0" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece is_default="true" id="ink_guard" name="{=inkguard1}Inkit Guard" tier="1" piece_type="Guard" mesh="sturgian_guard_4" culture="Culture.sturgia" length="1" weight="0.01">
+    <PieceUsages unavailable_usages="" />
+    <BuildData move_diff="0" />
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Wood" count="0" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece is_default="true" id="ink_handle" name="{=inkgripd1}Inkit Handle" tier="1" piece_type="Handle" mesh="aserai_grip_13" culture="Culture.aserai" length="35" weight="0.05" item_holster_pos_shift="0,0,-0.03">
+    <PieceUsages unavailable_usages="" />
+    <BuildData move_diff="0" />
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Wood" count="0" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece is_default="true" id="ink_pommel" name="{=inkpommel1}Inkit Pommel" tier="1" piece_type="Pommel" mesh="khuzait_pommel_4" length="2" weight="0.01">
+    <PieceUsages unavailable_usages="" />
+    <BuildData move_diff="0" />
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Wood" count="0" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece is_default="true" id="ink_spearblade" name="{=OBeOZ27b}Inkit Head" tier="1" piece_type="Blade" mesh="aserai_blade_11" length="150" weight="0.01">
+    <PieceUsages unavailable_usages="" />
+    <BuildData move_diff="0" top_diff="50"/>
+    <StatContributions handling_bonus="50" swing_damage_bonus="70" swing_speed_bonus="70" thrust_damage_bonus="50" thrust_speed_bonus="50" armor_bonus="50" />
+    <BladeData sharpness="5" physics_material="metal_weapon" body_name="bo_spear_b">
+      <Thrust damage_type="Pierce" damage_factor="12" />
+      <Swing damage_type="Cut" damage_factor="150" />
+    </BladeData>
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Iron4" count="0" />
+    </Materials>
+  </CraftingPiece>
+
+  <CraftingPiece is_default="true" id="ink_spearhandle" name="{=tgJ3dSOx}Inkit Staff" tier="1" piece_type="Handle" mesh="spear_handle_20" length="170" weight="0.01">
+    <PieceUsages unavailable_usages="Javelin" />
+    <BuildData move_diff="0" />
+    <Flags>
+      <Flag name="Civilian" type="ItemFlags" />
+    </Flags>
+    <Materials>
+      <Material id="Wood" count="0" />
+    </Materials>
+  </CraftingPiece>
+
+</CraftingPieces>

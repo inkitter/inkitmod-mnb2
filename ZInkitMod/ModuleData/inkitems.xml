@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item id="inkit_horse"
+        name="{=inkhorse}G-Horse"
+        mesh="horse_brown"
+        item_category="war_horse"
+        is_merchandise="true"
+        subtype="horse"
+        weight="1000"
+        value="1"
+        appearance="1"
+        difficulty="0"
+        Type="Horse">
+    <ItemComponent>
+      <Horse monster="Monster.horse"
+             maneuver="80"
+             speed="75"
+             charge_damage="50"
+             body_length="115"
+             is_mountable="true"
+             extra_health="800"
+             is_pack_animal="true"
+             modifier_group="horse">
+        <AdditionalMeshes>
+          <Mesh name="horse_mane"
+                affected_by_cover="true" />
+        </AdditionalMeshes>
+        <Materials>
+          <Material name="horse_white_mat">
+            <MeshMultipliers>
+              <MeshMultiplier mesh_multiplier="FF303030"
+                              percentage="1.0" />
+            </MeshMultipliers>
+          </Material>
+        </Materials>
+      </Horse>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="inkit_bard"
+        name="{=inkbards}G-Bard"
+        mesh="horse_harness_imperial_b_clotest"
+        subtype="body_armor"
+        weight="0.01"
+        difficulty="0"
+        value="1"
+        appearance="1"
+        Type="HorseHarness">
+    <ItemComponent>
+      <Armor body_armor="500"
+             maneuver_bonus="0"
+             speed_bonus="0"
+             charge_bonus="0"
+             mane_cover_type="all"
+             family_type="1"
+             modifier_group="chain"
+             reins_mesh="horse_harness_imperial_b_rein"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="inkit_shoe"
+        name="{=inksheos}G-Boots"
+        mesh="casual_02_boots"
+        weight="0.01"
+        value="1"
+        appearance="1"
+        Type="LegArmor">
+    <ItemComponent>
+      <Armor body_armor="100"
+             leg_armor="100"
+             head_armor="300"
+             arm_armor="100"
+             has_gender_variations="false"
+             covers_body="false"
+             modifier_group="Leather"
+             material_type="Plate" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="inkit_arrows"
+        name="{=inkarrow}G-Arrows"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="arrow_bl_f"
+        weight="0.0001"
+        appearance="1"
+        value="1"
+        flying_mesh="arrow_bl_flying"
+        holster_mesh="arrow_bl_f_quiver"
+        holster_mesh_with_weapon="arrow_bl_f_quiver"
+        Type="Arrows"
+        item_holsters="quiver_back_lower:quiver_back_lower_2"
+        holster_position_shift="0.0,0.0,-0.0">
+    <ItemComponent>
+      <Weapon weapon_class="Arrow"
+              stack_amount="600"
+              thrust_speed="0"
+              speed_rating="0"
+              physics_material="missile"
+              missile_speed="10"
+              weapon_length="97"
+              thrust_damage="10"
+              thrust_damage_type="Pierce"
+              item_usage="arrow_right"
+              passby_sound_code="event:/mission/combat/missile/passby"
+              rotation="0, -80, 25"
+              sticking_position="0,-0.97,0"
+              sticking_rotation="90,0,0"
+              center_of_mass="-0,00.05,-0.0">
+        <WeaponFlags Consumable="true"
+                     AmmoSticksWhenShot="true"
+                     AmmoBreaksOnBounceBack="true"
+                     MultiplePenetration="true"
+                     CanPenetrateShield="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="inkit_blots"
+        name="{=inkblots}G-Bolt"
+        body_name="bo_capsule_arrow"
+        holster_body_name="bo_axe_short"
+        mesh="bolt_bl_e"
+        holster_mesh="bolt_bl_e_quiver"
+        holster_mesh_with_weapon="bolt_bl_e_quiver"
+        flying_mesh="bolt_bl_flying"
+        weight="0.0001"
+        appearance="1"
+        value="1"
+        Type="Bolts"
+        item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
+    <ItemComponent>
+      <Weapon weapon_class="Bolt"
+              stack_amount="600"
+              thrust_speed="50"
+              speed_rating="120"
+              missile_speed="120"
+              weapon_length="80"
+              thrust_damage="10"
+              item_usage=""
+              rotation="180, 0, 0"
+              physics_material="missile"
+              sticking_position="0,-0.37,0"
+              sticking_rotation="90,0,0"
+              center_of_mass="0,0,-0.1">
+        <WeaponFlags AttachAmmoToVisual="true"
+                     Consumable="true"
+                     AmmoSticksWhenShot="true"
+                     CanPenetrateShield="true"
+                     AmmoBreaksOnBounceBack="true"
+                     MultiplePenetration="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags ForceAttachOffHandPrimaryItemBone="true" Civilian="true"/>
+  </Item>
+
+  <Item id="inkit_beer"
+        name="{=inkbeers}G-Beer"
+        mesh="amphora_slim"
+        item_category="wine"
+        appearance="10"
+        IsFood="true"
+        value="50"
+        weight="0.001"
+        Type="Goods">
+    <ItemComponent>
+      <Food morale_bonus="50" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="inkit_goose"
+        name="{=inkgoose}G-Goose"
+        mesh="goose_model_a"
+        item_category="animal"
+        appearance="1"
+        value="1"
+        weight="5"
+        Type="Animal">
+    <ItemComponent>
+      <Horse monster="Monster.goose"
+             maneuver="70"
+             speed="100"
+             charge_damage="50"
+             body_length="120" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item multiplayer_item="false"
+		    id="inkit_repeater_launcher"
+        name="{=inkcross}G-Crossbow"
+        body_name="bo_cross_bow_heavy"
+        mesh="crossbow_f"
+        weight="0.001"
+        value="1"
+        appearance="1"
+		    is_merchandise="true"
+        difficulty="0"
+        Type="Crossbow"
+        AmmoOffset="0.0, 0.02131, 0.22975"
+        item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+        holster_position_shift="0.02,0,-0.4">
+    <ItemComponent>
+      <Weapon weapon_class="Crossbow"
+              ammo_class="Bolt"
+              ammo_limit="2"
+              thrust_speed="100"
+              speed_rating="150"
+              missile_speed="400"
+              weapon_length="130"
+              accuracy="120"
+              thrust_damage="140"
+              thrust_damage_type="Pierce"
+              item_usage="crossbow_fast"
+              physics_material="wood_weapon"
+              center_of_mass="0,0,0.4">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     NotUsableWithOneHand="true"
+                     AutoReload="true"
+                     TwoHandIdleOnMount="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
+
+  <Item id="inkit_long_bow"
+        name="{=inkbowww}G-Bow"
+        body_name="bo_composite_longbow_g"
+        mesh="longbow_j"
+        weight="0.8"
+        difficulty="0"
+        value="1"
+        appearance="1"
+        Type="Bow"
+        item_holsters="bow_back:bow_back_2:bow_hip:bow_hip_2">
+    <ItemComponent>
+      <Weapon weapon_class="Bow"
+              ammo_class="Arrow"
+              ammo_limit="1"
+              thrust_speed="150"
+              speed_rating="150"
+              missile_speed="400"
+              weapon_length="118"
+              accuracy="120"
+              thrust_damage="150"
+              thrust_damage_type="Pierce"
+              item_usage="bow"
+              physics_material="wood_weapon"
+              center_of_mass="0.15,0,0">
+        <WeaponFlags RangedWeapon="true"
+                     HasString="true"
+                     StringHeldByHand="true"
+                     NotUsableWithOneHand="true"
+                     TwoHandIdleOnMount="true"
+                     AutoReload="true"
+                     UnloadWhenSheathed="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags ForceAttachOffHandPrimaryItemBone="true" Civilian="true" />
+  </Item>
+</Items>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="player_char_creation_default"
+                name="{=KqpiU4tH}with two-handed swords"
+                default_group="Infantry"
+                is_hero="false"
+                occupation="Wanderer"
+                culture="Culture.empire">
+    <face>
+      <face_key_template value="NPCCharacter.villager_empire" />
+    </face>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.nomad_bow" />
+      <equipment slot="Item1" id="Item.inkit_arrows" />
+      <equipment slot="Item2" id="Item.empire_sword_3_t3" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Leg" id="Item.inkit_shoe" />
+      <equipment slot="Horse" id="Item.inkit_horse" />
+      <equipment slot="HorseHarness" id="Item.inkit_bard" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.nomad_bow" />
+      <equipment slot="Item1" id="Item.inkit_arrows" />
+      <equipment slot="Item2" id="Item.empire_sword_3_t3" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Leg" id="Item.inkit_shoe" />
+      <equipment slot="Horse" id="Item.inkit_horse" />
+      <equipment slot="HorseHarness" id="Item.inkit_bard" />
+    </equipmentSet>
+    <Traits>
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Oligarchic" value="1" />
+    </Traits>
+  </NPCCharacter>
+
+    <!--rode with the scouts-->
+  <NPCCharacter id="player_char_creation_empire_2_m"
+                name="{=noTLVPDD}Doctor"
+                default_group="General"
+                is_hero="false"
+                culture="Culture.empire"
+                skill_template="NPCCharacter.npc_companion_equipment_template_inkit" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit">
+    <Traits>
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Oligarchic" value="1" />
+    </Traits>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.nomad_bow" />
+      <equipment slot="Item1" id="Item.inkit_arrows" />
+      <equipment slot="Item2" id="Item.empire_sword_3_t3" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Leg" id="Item.inkit_shoe" />
+      <equipment slot="Horse" id="Item.inkit_horse" />
+      <equipment slot="HorseHarness" id="Item.inkit_bard" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item1" id="Item.nomad_bow" />
+      <equipment slot="Item2" id="Item.empire_sword_3_t3" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Leg" id="Item.inkit_shoe" />
+      <equipment slot="Horse" id="Item.inkit_horse" />
+      <equipment slot="HorseHarness" id="Item.inkit_bard" />
+    </equipmentSet>
+  </NPCCharacter>
+  <!--rode with the scouts-->
+  <NPCCharacter id="player_char_creation_empire_2_f"
+                is_female="true"
+                name="{=noTLVPDD}Doctor"
+                default_group="General"
+                is_hero="false"
+                culture="Culture.empire"
+                skill_template="NPCCharacter.npc_companion_equipment_template_inkit"
+                battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit">
+    <Traits>
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Oligarchic" value="1" />
+    </Traits>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.nomad_bow" />
+      <equipment slot="Item1" id="Item.inkit_arrows" />
+      <equipment slot="Item2" id="Item.empire_sword_3_t3" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Leg" id="Item.inkit_shoe" />
+      <equipment slot="Horse" id="Item.inkit_horse" />
+      <equipment slot="HorseHarness" id="Item.inkit_bard" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item1" id="Item.nomad_bow" />
+      <equipment slot="Item2" id="Item.empire_sword_3_t3" />
+      <equipment slot="Body" id="Item.long_hemp_tunic" />
+      <equipment slot="Leg" id="Item.inkit_shoe" />
+      <equipment slot="Horse" id="Item.inkit_horse" />
+      <equipment slot="HorseHarness" id="Item.inkit_bard" />
+    </equipmentSet>
+  </NPCCharacter>
+</NPCCharacters>

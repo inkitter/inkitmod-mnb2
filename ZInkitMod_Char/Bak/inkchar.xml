@@ -1,0 +1,907 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <!-- WANDERER CHARACTERS BEGIN -->
+  <!-- WANDERERS OF EMPIRE -->
+  <!-- Engineer who refused to comply with guild backscratching -->
+  <NPCCharacter id="spc_wanderer_empire_0" name="{=bvjFhiDr}the Scholar" voice="curt" age="29" default_group="Infantry" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_empire" />
+      <hair_tags>
+        <hair_tag name="ShortAndThin" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="HeavyShortBeard" />
+      </beard_tags>
+    </face>
+    <!--<Hero id="spc_wanderer_empire_0" faction="Kingdom.empire"  is_template="true" /> -->
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- Very boastful -->
+  <NPCCharacter id="spc_wanderer_empire_1" name="{=xTQPfmS9}the Bull" voice="earnest" age="33" default_group="Infantry" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_empire" />
+      <hair_tags>
+        <hair_tag name="Tousled" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="HeavyShortBeard" />
+      </beard_tags>
+    </face>
+    <!--<Hero id="spc_wanderer_empire_1" faction="Kingdom.empire"  is_template="true" />-->
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- Family lost military land grant, must work for merchants -->
+  <NPCCharacter id="spc_wanderer_empire_2" name="{=Ivx4uJVp}the Silent" voice="softspoken" age="26" default_group="Infantry" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_empire" />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <!--<Hero id="spc_wanderer_empire_2" faction="Kingdom.empire"  is_template="true" />-->
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--  Die-hard legionary -->
+  <NPCCharacter id="spc_wanderer_empire_3" name="{=1OZBZZCi}the Boar" voice="ironic" age="40" default_group="Infantry" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_empire" />
+      <hair_tags>
+        <hair_tag name="Short" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <!--<Hero id="spc_wanderer_empire_3" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- Bandit who found bandits too sociopathic -->
+  <NPCCharacter id="spc_wanderer_empire_4" name="{=t9e34kgH}the Robber" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_4" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- the butcher, doesn't give much away about himself -->
+  <NPCCharacter id="spc_wanderer_empire_5" name="{=pZSAdyC0}the Butcher" voice="curt" age="30" default_group="Infantry" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_empire" />
+      <hair_tags>
+        <hair_tag name="Tousled" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <!--<Hero id="spc_wanderer_empire_5" faction="Kingdom.empire" is_template="true" />-->
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- maquisard, ex-messianic rebel turned mafiosi -->
+  <NPCCharacter id="spc_wanderer_empire_6" name="{=OArAImbM}of the Hills" voice="curt" age="27" default_group="Infantry" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_empire" />
+      <hair_tags>
+        <hair_tag name="Tousled" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <!--<Hero id="spc_wanderer_empire_6" faction="Kingdom.empire" is_template="true" />-->
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- posed as man to join army. needed the money -->
+  <NPCCharacter id="spc_wanderer_empire_7" name="{=c5Kjcxsa}the Wanderer" voice="ironic" age="24" is_template="true" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.village_woman_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_7" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- upper-class dispossessed. family was in sacked city, followed in wake of refugee columns.  -->
+  <NPCCharacter id="spc_wanderer_empire_8" name="{=KTObbG71}the Wronged" voice="curt" age="23" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_8" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--female outlaw. Mascot, used as assassin as girl. Got older, men's antics not as funny. Gang leader nemesis -->
+  <NPCCharacter id="spc_wanderer_empire_9" name="{=7apnGFz7}the Black" voice="curt" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.village_woman_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_9" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <!--<Trait id="GangLeaderIsNemesis" value="1" />-->
+    </Traits>
+  </NPCCharacter>
+  <!-- extra imperials -->
+  <!--  Doctor, forced to torture -->
+  <NPCCharacter id="spc_wanderer_empire_10" name="{=cud22JY1}the Surgeon" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_empire" />
+      <hair_tags>
+        <hair_tag name="Tousled" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <!--<Hero id="spc_wanderer_empire_10" faction="Kingdom.empire" is_template="true" />-->
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--upper-class dispossessed, refused a bad marriage -->
+  <NPCCharacter id="spc_wanderer_empire_11" name="{=KTObbG71}the Wronged" voice="curt" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_empire" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- WANDERERS OF STURGIA -->
+  <!-- Herbalist, female, driven from village-->
+  <NPCCharacter id="spc_wanderer_sturgia_0" name="{=yr5pa0hs}Willowbark" voice="softspoken" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="Calculating" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--braggart backstory - claims he found skolderbrotva too soft -->
+  <NPCCharacter id="spc_wanderer_sturgia_1" name="{=W7aa22Yl}Breakskull" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--enterprising young would-be raider, wants to do his father proud -->
+  <NPCCharacter id="spc_wanderer_sturgia_2" name="{=aE8abvsQ}the Lucky" voice="earnest" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- vaegir guard veteran backstory - bitter about riots -->
+  <NPCCharacter id="spc_wanderer_sturgia_3" name="{=LmlL8fVu}Bloodaxe" voice="curt" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--outlaw backstory,  easily angered  -->
+  <NPCCharacter id="spc_wanderer_sturgia_4" name="{=WU5GnkvR}the Fish" voice="softspoken" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_sturgia_4" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="Generosity" value="1" />
+      <Trait id="Honor" value="1" />
+      <!--<Trait id="RuralClanIsNemesis" value="1" />-->
+    </Traits>
+  </NPCCharacter>
+  <!-- coalbiter backstory -->
+  <NPCCharacter id="spc_wanderer_sturgia_5" name="{=NSaetzNJ}Coalbiter" voice="curt" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_sturgia_5" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--icebeard - mossbeard. Simple misanthrope, cheated in marriage by brother-in-law, went to woods -->
+  <NPCCharacter id="spc_wanderer_sturgia_6" name="{=zXjdb1zT}Frostbeard" voice="curt" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_sturgia_6" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- dispossessed because of birthmark -->
+  <NPCCharacter id="spc_wanderer_sturgia_7" name="{=QyQPJJ9B}the Accursed" voice="ironic" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_sturgia_7" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- shield maiden -->
+  <NPCCharacter id="spc_wanderer_sturgia_8" name="{=rtsnnL2J}the Shieldmaiden" voice="curt" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_sturgia_8" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--proud hireling who will do any task, values professionalism -->
+  <NPCCharacter id="spc_wanderer_sturgia_9" name="{=akALDUs0}Longknife" voice="ironic" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_sturgia" />
+    </face>
+    <!--<Hero id="spc_wanderer_sturgia_9" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- copied, find new history/characteristic -->
+  <!-- WANDERERS OF BATTANIA -->
+  <!-- formerly the ornery, merlin-type. 'By the time I became a woman I was sick of filthy huts and puking babies.' -->
+  <NPCCharacter id="spc_wanderer_battania_0" name="{=G8mawcBV}the Healer" voice="ironic" is_female="true" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_battania_0" faction="Kingdom.battania" />-->
+    <Traits>
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- boastful, keeps a collection of his enemies' heads  -->
+  <NPCCharacter id="spc_wanderer_battania_1" name="{=qslA0bVb}the Red" voice="earnest" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_battania_1" faction="Kingdom.battania" />-->
+    <Traits>
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--Set up to die in a duel by his stepfather, but won the duels -->
+  <NPCCharacter id="spc_wanderer_battania_2" name="{=2U2Hy2Su}Fairhair" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_battania_2" faction="Kingdom.battania" />-->
+    <Traits>
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- the grey, professional veteran. fought for the empire -->
+  <NPCCharacter id="spc_wanderer_battania_3" name="{=pTuZB1Hj}Ironbelly" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <Traits>
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- horsethief, boastful -->
+  <NPCCharacter id="spc_wanderer_battania_4" name="{=fJmGKlaO}Horsethief" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--loner, deserted the wolfskins -->
+  <NPCCharacter id="spc_wanderer_battania_5" name="{=CQOlMayc}the Ragged" voice="softspoken" default_group="Infantry" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_battania_5" faction="Kingdom.battania" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--talkative bandit, of the hills -->
+  <NPCCharacter id="spc_wanderer_battania_6" name="{=nqE62lQW}Blacktooth" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_battania_6" faction="Kingdom.battania" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Mercy" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--female, the wanderer. killed a chief's son who pestered her -->
+  <NPCCharacter id="spc_wanderer_battania_7" name="{=c5Kjcxsa}the Wanderer" voice="ironic" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_battania_7" faction="Kingdom.battania" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <!--<Trait id="RuralClanIsNemesis" value="1" />-->
+    </Traits>
+  </NPCCharacter>
+  <!-- The accursed, believed to be bad luck -->
+  <NPCCharacter id="spc_wanderer_battania_8" name="{=KTObbG71}the Wronged" voice="curt" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_battania_8" faction="Kingdom.battania" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- 'Cowthief' - caught up in feud, raided cattle as revenge -->
+  <NPCCharacter id="spc_wanderer_battania_9" name="{=KnTl4ESh}Cowthief" voice="ironic" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_battania" />
+    </face>
+    <!--<Hero id="spc_wanderer_battania_9" faction="Kingdom.battania" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="HillScoutSkills" value="3" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- WANDERERS OF VLANDIA -->
+  <!-- Talkative philosopher of medicine. Chatty monk -->
+  <NPCCharacter id="spc_wanderer_vlandia_0" name="{=XuxARPTM}Bitterdraught" voice="earnest" default_group="Infantry" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_0" faction="Kingdom.vlandia" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.vlandia_sword_3_t4" />
+      <equipment slot="Body" id="Item.monk_robe" />
+      <equipment slot="Leg" id="Item.strapped_leather_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+  <!-- boorish noble -->
+  <NPCCharacter id="spc_wanderer_vlandia_1" name="{=ntkipfCV}the Loud" voice="earnest" default_group="Infantry" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_1" faction="Kingdom.vlandia" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- bastard who went away to avoid complications for his family -->
+  <NPCCharacter id="spc_wanderer_vlandia_2" name="{=7lg12a57}the Brave" voice="earnest" default_group="Infantry" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_2" faction="Kingdom.vlandia" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- veteran. decent man haunted by looting of cities. hated being loyal to men who saved his lives who turn out to be killers -->
+  <NPCCharacter id="spc_wanderer_vlandia_3" name="{=ZCc3VFat}the Grizzled" voice="curt" default_group="Infantry" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_3" faction="Kingdom.vlandia" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--the shark, butcher/criminal -->
+  <NPCCharacter id="spc_wanderer_vlandia_4" name="{=8o5SDCCJ}the Shark" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_4" faction="Kingdom.vlandia" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- longshoreman, fled dominating guild. revenge against gang leader -->
+  <NPCCharacter id="spc_wanderer_vlandia_5" name="{=WvwWX4me}Barrelchest" voice="softspoken" default_group="Infantry" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_5" faction="Kingdom.vlandia" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <!--<Trait id="GangLeaderIsNemesis" value="1" />-->
+    </Traits>
+  </NPCCharacter>
+  <!-- loner - father fled to avoid feud with bailiff, then disappeared in a blizzard -->
+  <NPCCharacter id="spc_wanderer_vlandia_6" name="{=OArAImbM}of the Hills" voice="curt" default_group="Infantry" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_6" faction="Kingdom.vlandia" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Mercy" value="1" />
+      <Trait id="Valor" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--female. ex brother of the woods. Like any other group of bandits. -->
+  <NPCCharacter id="spc_wanderer_vlandia_7" name="{=c5Kjcxsa}the Wanderer" voice="ironic" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_7" faction="Kingdom.vlandia" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--<Trait id="LordIsNemesis" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- smith, struck dead a young knight who ran a boy down with his horse -->
+  <NPCCharacter id="spc_wanderer_vlandia_8" name="{=hrMatilh}the Smith" voice="softspoken" default_group="Infantry" is_female="false" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townsman_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_8" faction="Kingdom.vlandia" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--<Trait id="LordIsNemesis" value="1" />-->
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- female bandit, left the woods because life expectancy too short -->
+  <NPCCharacter id="spc_wanderer_vlandia_9" name="{=7apnGFz7}the Black" voice="ironic" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_9" faction="Kingdom.vlandia" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--female engineer, father emigrant to empire, killed in riots -->
+  <NPCCharacter id="spc_wanderer_vlandia_10" name="{=6CAbkgS4}the Wainwright" voice="ironic" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_10" faction="Kingdom.vlandia" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--free company. we're not at war long enough - doesn't adapt to peace. spawn as prisoner -->
+  <NPCCharacter id="spc_wanderer_vlandia_11" name="{=eobXmmLg}of the Company" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_11" faction="Faction.company_of_the_boar" clan="Clan.company_of_the_boar" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--<Trait id="SpawnAsPrisoner" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_vlandia_12" name="{=QGcgQDqK}of the Brotherhood" voice="earnest" default_group="Infantry" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_12" faction="Faction.brotherhood_of_woods" clan="Clan.brotherhood_of_woods"/>-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--<Trait id="SpawnAsPrisoner" value="1" />-->
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- WANDERERS OF ASERAI -->
+  <!-- misanthropic, chip-on-shoulder illegitimate. nautical surgeon -->
+  <NPCCharacter id="spc_wanderer_aserai_0" name="{=bvjFhiDr}the Scholar" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <!--<Hero id="spc_wanderer_aserai_0" faction="Kingdom.aserai" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--Obsessed with own genealogy -->
+  <NPCCharacter id="spc_wanderer_aserai_1" name="{=vtXRptVa}the Golden" voice="earnest" default_group="Infantry" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <!--<Hero id="spc_wanderer_aserai_1" faction="Kingdom.aserai" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--The falcon, chivalrous, but thinks great clans hog the glory -->
+  <NPCCharacter id="spc_wanderer_aserai_2" name="{=TyxXbqVw}the Falcon" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <!--<Hero id="spc_wanderer_aserai_2" faction="Kingdom.aserai" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--professional, fighter and killer. often provoked enemies. fell out with lord over a slave woman that he sold -->
+  <NPCCharacter id="spc_wanderer_aserai_3" name="{=4GIoPUen}the Swordsman" voice="softspoken" default_group="Infantry" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <!--<Hero id="spc_wanderer_aserai_3" faction="Kingdom.aserai" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--<Trait id="LordIsNemesis" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- "The Prince", fitiwi whom a guard captain tried to corrupt -->
+  <NPCCharacter id="spc_wanderer_aserai_4" name="{=rgdi5Sxa}the Prince" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <!--<Hero id="spc_wanderer_aserai_4" faction="Kingdom.aserai" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- "The Hyena" (contemptuous killer) -->
+  <NPCCharacter id="spc_wanderer_aserai_5" name="{=OFWvD0xe}the Hyena" voice="curt" default_group="Infantry" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <!--<Hero id="spc_wanderer_aserai_5" faction="Kingdom.aserai" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Mercy" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--of the Wastes - 'the searing gravel plain knows me' -->
+  <NPCCharacter id="spc_wanderer_aserai_6" name="{=muC2SGlM}of the Wastes" voice="curt" default_group="Infantry" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <!--<Hero id="spc_wanderer_aserai_6" faction="Kingdom.aserai" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- female member of clan that lost power -->
+  <NPCCharacter id="spc_wanderer_aserai_7" name="{=c5Kjcxsa}the Wanderer" voice="curt" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_aserai" />
+    </face>
+    <!--<Hero id="spc_wanderer_aserai_7" faction="Kingdom.aserai" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--unlucky merchant -->
+  <NPCCharacter id="spc_wanderer_aserai_8" name="{=XBJtv4mD}the Spicevendor" voice="softspoken" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_aserai" />
+    </face>
+    <!--<Hero id="spc_wanderer_aserai_8" faction="Kingdom.aserai" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Manager" value="5" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- female alley urchin -->
+  <NPCCharacter id="spc_wanderer_aserai_9" name="{=NWuGUi4p}the Leopardess" voice="ironic" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_aserai" />
+    </face>
+    <!--<Hero id="spc_wanderer_aserai_9" faction="Kingdom.aserai" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_aserai_10" name="{=cP1o8eUs}the Engineer" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_aserai" />
+    </face>
+    <!--<Hero id="spc_wanderer_aserai_10" faction="Faction.jawwal" clan="Clan.jawwal"/>-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--<Trait id="SpawnAsPrisoner" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--WANDERERS OF KHUZAIT -->
+  <!--engineer, sent to learn trade -->
+  <NPCCharacter id="spc_wanderer_khuzait_0" name="{=sdzaip5J}the Knowing" voice="softspoken" default_group="Infantry" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_khuzait" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_0" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- the hawk, curt voice. Rural clan nemesis. Easily insulted, killed a man's brother over a girl -->
+  <NPCCharacter id="spc_wanderer_khuzait_1" name="{=j2nVPqIX}the Hawk" voice="curt" default_group="Infantry" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_khuzait" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_1" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <!--<Trait id="RuralClanIsNemesis" value="1" />-->
+    </Traits>
+  </NPCCharacter>
+  <!-- the fatherless, backed out of a family feud -->
+  <NPCCharacter id="spc_wanderer_khuzait_2" name="{=agS5lIg7}the Fatherless" voice="earnest" default_group="Infantry" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_khuzait" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_2" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- ironeye, professional soldier. infantryman -->
+  <NPCCharacter id="spc_wanderer_khuzait_3" name="{=QWbgE4bw}Ironeye" voice="curt" default_group="Infantry" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_khuzait" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_3" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--the proud, turned on protectors. lord as nemesis -->
+  <NPCCharacter id="spc_wanderer_khuzait_4" name="{=ykTARD4b}the Outcast" voice="ironic" default_group="Infantry" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_khuzait" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_4" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- 'the mad' soft voice, sinister? Pickpocket. Have gang leader as nemesis? -->
+  <NPCCharacter id="spc_wanderer_khuzait_5" name="{=q5QjQyde}the Mad" voice="softspoken" default_group="Infantry" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_khuzait" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_5" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--<Trait id="GangLeaderIsNemesis" value="1" />-->
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--the grey falcon, lone survivor of a hunted steppe clan -->
+  <NPCCharacter id="spc_wanderer_khuzait_6" name="{=seS9ZZUW}the Grey Falcon" voice="curt" default_group="Infantry" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_khuzait" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_6" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!--the she-wolf - taken by empire, slave in arena. CHANGED TO AT-START-->
+  <NPCCharacter id="spc_wanderer_khuzait_7" name="{=3wzexaA7}the She-Wolf" voice="curt" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_khuzait" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_7" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- lone daughter of mother -->
+  <NPCCharacter id="spc_wanderer_khuzait_8" name="{=OIXub6bS}the Alone" voice="curt" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_khuzait" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_8" faction="Kingdom.khuzait" />-->
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- tomboy daughter of caravan guard -->
+  <NPCCharacter id="spc_wanderer_khuzait_9" name="{=KY2zbWkj}the Swift" voice="ironic" is_female="true" is_hero="false" default_group="Infantry" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_khuzait" />
+    </face>
+    <!--<Hero id="spc_wanderer_khuzait_9" faction="Kingdom.khuzait" />-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+  </NPCCharacter>
+  <!-- 'horsethief', karakhuzait prisoner -->
+  <NPCCharacter id="spc_wanderer_khuzait_10" name="{=fJmGKlaO}Horsethief" voice="curt" default_group="Infantry" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face>
+      <face_key_template value="NPCCharacter.villager_khuzait" />
+    </face>
+    <!--<Hero id="spc_wanderer_karakhuzaits_10" faction="Faction.karakhuzaits" clan="Clan.karakhuzaits"/>-->
+    <skills></skills>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--<Trait id="SpawnAsPrisoner" value="1" />-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.khuzait_sword_4_t4" />
+      <equipment slot="Head" id="Item.decorated_nomad_cap" />
+      <equipment slot="Body" id="Item.ragged_robes" />
+      <equipment slot="Leg" id="Item.ragged_boots" />
+    </equipmentSet>
+  </NPCCharacter>
+</NPCCharacters>

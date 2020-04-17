@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <!-- Tacitus type: Perk, allows you to recite ancestry of lords-->
+  <NPCCharacter id="companion_0" name="{=KbdRplDL}Petrys" voice="earnest" culture="Culture.empire" is_female="false" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" level="1" default_group="Infantry" is_hero="true" is_companion="true" occupation="Companion">
+    <face>
+      <BodyProperties version="4" key="0005640A187C05CE67AA9455B38A9554A9B882D665564ACC4956492677AC6716000AA00A0A178197000000000000000000000000000000000000000001180000" />
+    </face>
+    <Components>
+      <Companion id="companion_comp_0" />
+    </Components>
+    <skills>
+      <skill id="OneHanded" value="30" />
+      <skill id="TwoHanded" value="35" />
+      <skill id="Polearm" value="30" />
+      <skill id="Bow" value="75" />
+      <skill id="Crossbow" value="60" />
+      <skill id="Throwing" value="55" />
+    </skills>
+  </NPCCharacter>
+</NPCCharacters>
