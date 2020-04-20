@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <CraftedItem id="inkit_sword_t1"
+               name="{=inksword}G-Blade"
+               crafting_template="Ink_OneHandedSword"
+               value="1">
+    <Pieces>
+      <Piece id="ink_blade"
+             Type="Blade"
+             scale_factor="130" />
+      <Piece id="ink_guard"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="ink_handle"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="ink_pommel"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+
+  <CraftedItem id="inkit_spike_t1"
+               name="{=inkspike}G-Spike"
+               crafting_template="Ink_TwoHandedPolearm"
+               value="1">
+    <Pieces>
+      <Piece id="ink_spearblade"
+             Type="Blade"
+             scale_factor="130" />
+      <Piece id="ink_guard"
+             Type="Guard"
+             scale_factor="100" />
+      <Piece id="ink_spearhandle"
+             Type="Handle"
+             scale_factor="100" />
+      <Piece id="ink_pommel"
+             Type="Pommel"
+             scale_factor="100" />
+    </Pieces>
+  </CraftedItem>
+</Items>

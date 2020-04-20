@@ -8,6 +8,10 @@
   	<Official value="false" />
 	<DependedModules>
 		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="CustomBattle"/>
+		<DependedModule Id="StoryMode" />
 		<DependedModule Id="ZInkitMod"/>
 	</DependedModules>
 	<SubModules>

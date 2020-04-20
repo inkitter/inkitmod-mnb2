@@ -9,6 +9,7 @@ pause
 mklink /j "%mydoc%\ZInkitMod" ZInkitMod
 mklink /j "%mydoc%\ZInkitMod_Char" ZInkitMod_Char
 mklink /j "%mydoc%\ZInkitMod_Craft" ZInkitMod_Craft
+mklink /j "%mydoc%\ZInkitMod_Troop" ZInkitMod_Troop
 
 @echo ----链接已建立：mod文件夹与本文件夹的链接，删除本文件夹内容会使mod失效----
 @echo ----若无效请查看是否有错误提示----

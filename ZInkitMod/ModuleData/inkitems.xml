@@ -165,7 +165,7 @@
         item_category="wine"
         appearance="10"
         IsFood="true"
-        value="50"
+        value="1"
         weight="0.001"
         Type="Goods">
     <ItemComponent>
@@ -265,4 +265,5 @@
     </ItemComponent>
     <Flags ForceAttachOffHandPrimaryItemBone="true" Civilian="true" />
   </Item>
+  
 </Items>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <CraftingTemplates>
-  <CraftingTemplate id="InkOneHandedSword" text="{=nNDdo3I9}One Handed Sword" item_modifier_group="sword" item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back" piece_type_to_scale_holster_with="Blade" hidden_piece_types_on_holster="Blade" default_item_holster_position_offset="0,0,-0.1">
+  <CraftingTemplate id="Ink_OneHandedSword" item_modifier_group="sword" item_holsters="sword_left_hip_3:sword_left_hip:sword_left_hip_2:sword_back" piece_type_to_scale_holster_with="Blade" hidden_piece_types_on_holster="Blade" default_item_holster_position_offset="0,0,-0.1">
     <PieceDatas>
       <PieceData piece_type="Handle" build_order="0"/>
       <PieceData piece_type="Guard" build_order="1"/>
@@ -27,7 +27,7 @@
     </UsablePieces>
   </CraftingTemplate>
 
-  <CraftingTemplate id="InkTwoHandedPolearm" text="{=FqwHAxuM}Two Handed Polearm" item_modifier_group="polearm" item_holsters="polearm_back:polearm_back_2:polearm_back_3:polearm_back_4" default_item_holster_position_offset="0,0,-0.30" use_weapon_as_holster_mesh="true">
+  <CraftingTemplate id="Ink_TwoHandedPolearm" text="{=FqwHAxuM}Two Handed Polearm" item_modifier_group="polearm" item_holsters="polearm_back:polearm_back_2:polearm_back_3:polearm_back_4" default_item_holster_position_offset="0,0,-0.30" use_weapon_as_holster_mesh="true">
     <PieceDatas>
       <PieceData piece_type="Handle" build_order="0"/>
       <PieceData piece_type="Guard" build_order="1"/>
@@ -51,9 +51,8 @@
     <UsablePieces>
       <UsablePiece piece_id="ink_spearblade"/>
       <UsablePiece piece_id="ink_spearhandle"/>
-
-      <UsablePiece piece_id="default_polearm_pommel"/>
-      <UsablePiece piece_id="default_polearm_guard"/>
+      <UsablePiece piece_id="ink_pommel"/>
+      <UsablePiece piece_id="ink_guard"/>
     </UsablePieces>
   </CraftingTemplate>
 

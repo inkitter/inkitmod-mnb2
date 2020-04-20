@@ -8,6 +8,10 @@
   	<Official value="false" />
 	<DependedModules>
 		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="CustomBattle"/>
+		<DependedModule Id="StoryMode" />
 		<DependedModule Id="ZInkitMod"/>
 	</DependedModules>
 	<SubModules>
@@ -30,5 +34,13 @@
 				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode> 
+		<XmlNode>                
+			<XmlName id="Items" path="inkcrafteditems"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
 	</Xmls>
 </Module>
