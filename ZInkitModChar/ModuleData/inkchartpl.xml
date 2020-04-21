@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="npc_companion_equipment_template_inkit"
+                default_group="Infantry"
+                formation_position_preference="Front"
+                is_hero="false"
+                name="{=imiWg976}wanderer_equipment"
+                is_template="true">
+    <face>
+      <face_key_template value="NPCCharacter.townswoman_empire" />
+      <BodyProperties version="4" key="00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" />
+    </face>
+    <skills>
+      <skill id="OneHanded" value="25" />
+      <skill id="TwoHanded" value="0" />
+      <skill id="Polearm" value="0" />
+      <skill id="Bow" value="150" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="0" />
+      <skill id="Riding" value="50" />
+      <skill id="Athletics" value="50" />
+      <skill id="Crafting" value="0" />
+      <skill id="Tactics" value="0" />
+      <skill id="Scouting" value="100" />
+      <skill id="Roguery" value="0" />
+      <skill id="Leadership" value="0" />
+      <skill id="Charm" value="0" />
+      <skill id="Trade" value="0" />
+      <skill id="Steward" value="0" />
+      <skill id="Medicine" value="100" />
+      <skill id="Engineering" value="100" />
+    </skills>
+    <equipmentSet>
+      <equipment slot="Item0" id="Item.inkit_long_bow" />
+      <equipment slot="Item1" id="Item.inkit_arrows" />
+      <equipment slot="Item2" id="Item.inkit_sword_t1" />
+      <equipment slot="Body" id="Item.empire_dress_b" />
+      <equipment slot="Leg" id="Item.inkit_shoe" />
+      <equipment slot="Horse" id="Item.inkit_horse" />
+      <equipment slot="HorseHarness" id="Item.inkit_bard" />
+    </equipmentSet>
+    <equipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.inkit_long_bow" />
+      <equipment slot="Item1" id="Item.inkit_arrows" />
+      <equipment slot="Item2" id="Item.inkit_sword_t1" />
+      <equipment slot="Body" id="Item.empire_dress_b" />
+      <equipment slot="Leg" id="Item.inkit_shoe" />
+      <equipment slot="Horse" id="Item.inkit_horse" />
+      <equipment slot="HorseHarness" id="Item.inkit_bard" />
+    </equipmentSet>
+  </NPCCharacter>
+</NPCCharacters>

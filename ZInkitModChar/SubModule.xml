@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Module>
-	<Name value = "ZInkitMod_Craft"/>
-	<Id value = "ZInkitMod_Craft"/>
+	<Name value = "ZInkitModChar"/>
+	<Id value = "ZInkitModChar"/>
 	<Version value = "e1.0.0"/>
 	<DefaultModule value="false"/>
 	<SingleplayerModule value="true"/>
@@ -17,29 +17,33 @@
 	<SubModules>
 
 	</SubModules>
-	<Xmls>
-		<XmlNode>                
-			<XmlName id="CraftingPieces" path="inkcrafting_pieces"/>
+	<Xmls>          
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="inkchartpl"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode>
-		<XmlNode>                
-			<XmlName id="CraftingTemplates" path="inkcrafting_templates"/>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="inkwander"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
-		</XmlNode> 
-		<XmlNode>                
-			<XmlName id="Items" path="inkcrafteditems"/>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="inkwanderblock"/>
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
-				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="inkcharmain"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
 			</IncludedGameTypes>
 		</XmlNode>
 	</Xmls>

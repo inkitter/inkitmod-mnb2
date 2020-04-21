@@ -209,7 +209,7 @@
     <ItemComponent>
       <Weapon weapon_class="Crossbow"
               ammo_class="Bolt"
-              ammo_limit="2"
+              ammo_limit="10"
               thrust_speed="100"
               speed_rating="150"
               missile_speed="400"
@@ -223,7 +223,7 @@
         <WeaponFlags RangedWeapon="true"
                      HasString="true"
                      NotUsableWithOneHand="true"
-                     AutoReload="true"
+                     AutoReload="false"
                      TwoHandIdleOnMount="true" />
       </Weapon>
     </ItemComponent>

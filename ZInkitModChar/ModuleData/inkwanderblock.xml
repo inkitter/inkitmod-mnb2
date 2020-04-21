@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="spc_wanderer_empire_0" name="{=bvjFhiDr}the Scholar" voice="curt" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_empire" civilianTemplate="NPCCharacter.npc_companion_equipment_template_empire" occupation="Companion" />
+  <!-- Very boastful -->
+  <NPCCharacter id="spc_wanderer_empire_1" name="{=xTQPfmS9}the Bull" voice="earnest" age="29" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_empire" civilianTemplate="NPCCharacter.npc_companion_equipment_template_empire" occupation="Companion" />
+  <!-- Family lost military land grant, must work for merchants -->
+  <NPCCharacter id="spc_wanderer_empire_2" name="{=Ivx4uJVp}the Silent" voice="softspoken" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_empire" civilianTemplate="NPCCharacter.npc_companion_equipment_template_empire" occupation="Companion" />
+  <!--  Die-hard legionary -->
+  <NPCCharacter id="spc_wanderer_empire_3" name="{=1OZBZZCi}the Boar" voice="ironic" age="40" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_empire" civilianTemplate="NPCCharacter.npc_companion_equipment_template_empire" occupation="Companion" />
+  <!-- Bandit who found bandits too sociopathic -->
+  <NPCCharacter id="spc_wanderer_empire_4" name="{=t9e34kgH}the Robber" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_empire" civilianTemplate="NPCCharacter.npc_companion_equipment_template_empire" occupation="Companion" />
+  <!-- the butcher, doesn't give much away about himself -->
+  <NPCCharacter id="spc_wanderer_empire_5" name="{=pZSAdyC0}the Butcher" voice="curt" age="30" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_empire" civilianTemplate="NPCCharacter.npc_companion_equipment_template_empire" occupation="Companion" />
+  <!-- maquisard, ex-messianic rebel turned mafiosi -->
+  <NPCCharacter id="spc_wanderer_empire_6" name="{=OArAImbM}of the Hills" voice="curt" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_empire" civilianTemplate="NPCCharacter.npc_companion_equipment_template_empire" occupation="Companion" />
+  <!-- posed as man to join army. needed the money -->
+  <NPCCharacter id="spc_wanderer_empire_7" name="{=c5Kjcxsa}the Wanderer" voice="ironic" age="24" is_template="true" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_empire" civilianTemplate="NPCCharacter.npc_companion_equipment_template_empire" occupation="Companion" />
+  <!-- upper-class dispossessed. family was in sacked city, followed in wake of refugee columns.  -->
+  <NPCCharacter id="spc_wanderer_empire_8" name="{=KTObbG71}the Wronged" voice="curt" age="23" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_empire" civilianTemplate="NPCCharacter.npc_companion_equipment_template_empire" occupation="Companion" />
+  <!--female outlaw. Mascot, used as assassin as girl. Got older, men's antics not as funny. Gang leader nemesis -->
+  <NPCCharacter id="spc_wanderer_empire_9" name="{=7apnGFz7}the Black" voice="curt" age="21" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_empire" civilianTemplate="NPCCharacter.npc_companion_equipment_template_empire" occupation="Companion" />
+  <!-- extra imperials -->
+  <!--  Doctor, forced to torture -->
+  <NPCCharacter id="spc_wanderer_empire_10" name="{=cud22JY1}the Surgeon" voice="ironic" is_template="true" age="31" default_group="Infantry" is_hero="false" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_empire" civilianTemplate="NPCCharacter.npc_companion_equipment_template_empire" occupation="Companion" />
+  <!--upper-class dispossessed, refused a bad marriage -->
+  <NPCCharacter id="spc_wanderer_empire_11" name="{=KTObbG71}the Wronged" voice="curt" age="28" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_empire" civilianTemplate="NPCCharacter.npc_companion_equipment_template_empire" occupation="Companion" />
+  <!-- WANDERERS OF STURGIA -->
+  <!-- Herbalist, female, driven from village-->
+  <NPCCharacter id="spc_wanderer_sturgia_0" name="{=yr5pa0hs}Willowbark" voice="softspoken" age="28" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" occupation="Companion" />
+  <!--braggart backstory - claims he found skolderbrotva too soft -->
+  <NPCCharacter id="spc_wanderer_sturgia_1" name="{=W7aa22Yl}Breakskull" voice="earnest" age="27" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" occupation="Companion" />
+  <!--enterprising young would-be raider, wants to do his father proud -->
+  <NPCCharacter id="spc_wanderer_sturgia_2" name="{=aE8abvsQ}the Lucky" voice="earnest" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" occupation="Companion" />
+  <!-- vaegir guard veteran backstory - bitter about riots -->
+  <NPCCharacter id="spc_wanderer_sturgia_3" name="{=LmlL8fVu}Bloodaxe" voice="curt" age="35" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" occupation="Companion" />
+  <!--outlaw backstory,  easily angered  -->
+  <NPCCharacter id="spc_wanderer_sturgia_4" name="{=WU5GnkvR}the Fish" voice="softspoken" age="23" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" occupation="Companion" />
+  <!-- coalbiter backstory -->
+  <NPCCharacter id="spc_wanderer_sturgia_5" name="{=NSaetzNJ}Coalbiter" voice="curt" age="30" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" occupation="Companion" />
+  <!--icebeard - mossbeard. Simple misanthrope, cheated in marriage by brother-in-law, went to woods -->
+  <NPCCharacter id="spc_wanderer_sturgia_6" name="{=zXjdb1zT}Frostbeard" voice="curt" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" occupation="Companion" />
+  <!-- dispossessed because of birthmark -->
+  <NPCCharacter id="spc_wanderer_sturgia_7" name="{=QyQPJJ9B}the Accursed" voice="ironic" age="24" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" occupation="Companion" />
+  <!-- shield maiden -->
+  <NPCCharacter id="spc_wanderer_sturgia_8" name="{=rtsnnL2J}the Shieldmaiden" voice="curt" age="29" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" occupation="Companion" />
+  <!--proud hireling who will do any task, values professionalism -->
+  <NPCCharacter id="spc_wanderer_sturgia_9" name="{=akALDUs0}Longknife" voice="ironic" age="26" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_sturgia" occupation="Companion" />
+  <!-- copied, find new history/characteristic -->
+  <!-- WANDERERS OF BATTANIA -->
+  <!-- formerly the ornery, merlin-type. 'By the time I became a woman I was sick of filthy huts and puking babies.' -->
+  <NPCCharacter id="spc_wanderer_battania_0" name="{=G8mawcBV}the Healer" voice="ironic" age="30" is_female="true" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_battania" civilianTemplate="NPCCharacter.npc_companion_equipment_template_battania" occupation="Companion" />
+  <!-- boastful, keeps a collection of his enemies' heads  -->
+  <NPCCharacter id="spc_wanderer_battania_1" name="{=qslA0bVb}the Red" voice="earnest" age="28" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_battania" civilianTemplate="NPCCharacter.npc_companion_equipment_template_battania" occupation="Companion" />
+  <!--Set up to die in a duel by his stepfather, but won the duels -->
+  <NPCCharacter id="spc_wanderer_battania_2" name="{=2U2Hy2Su}Fairhair" voice="ironic" age="28" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_battania" civilianTemplate="NPCCharacter.npc_companion_equipment_template_battania" occupation="Companion" />
+  <!-- the grey, professional veteran. fought for the empire -->
+  <NPCCharacter id="spc_wanderer_battania_3" name="{=pTuZB1Hj}Ironbelly" voice="ironic" age="35" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_battania" civilianTemplate="NPCCharacter.npc_companion_equipment_template_battania" occupation="Companion" />
+  <!-- horsethief, boastful -->
+  <NPCCharacter id="spc_wanderer_battania_4" name="{=fJmGKlaO}Horsethief" voice="ironic" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_battania" civilianTemplate="NPCCharacter.npc_companion_equipment_template_battania" occupation="Companion" />
+  <!--loner, deserted the wolfskins -->
+  <NPCCharacter id="spc_wanderer_battania_5" name="{=CQOlMayc}the Ragged" voice="softspoken" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_battania" civilianTemplate="NPCCharacter.npc_companion_equipment_template_battania" occupation="Companion" />
+  <!--talkative bandit, of the hills -->
+  <NPCCharacter id="spc_wanderer_battania_6" name="{=nqE62lQW}Blacktooth" voice="ironic" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_battania" civilianTemplate="NPCCharacter.npc_companion_equipment_template_battania" occupation="Companion" />
+  <!--female, the wanderer. killed a chief's son who pestered her -->
+  <NPCCharacter id="spc_wanderer_battania_7" name="{=c5Kjcxsa}the Wanderer" voice="ironic" age="21" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_battania" civilianTemplate="NPCCharacter.npc_companion_equipment_template_battania" occupation="Companion" />
+  <!-- The accursed, believed to be bad luck -->
+  <NPCCharacter id="spc_wanderer_battania_8" name="{=KTObbG71}the Wronged" voice="curt" age="26" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_battania" civilianTemplate="NPCCharacter.npc_companion_equipment_template_battania" occupation="Companion" />
+  <!-- 'Cowthief' - caught up in feud, raided cattle as revenge -->
+  <NPCCharacter id="spc_wanderer_battania_9" name="{=KnTl4ESh}Cowthief" voice="ironic" age="22" is_female="false" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_battania" civilianTemplate="NPCCharacter.npc_companion_equipment_template_battania" occupation="Companion" />
+  <!-- WANDERERS OF VLANDIA -->
+  <!-- Talkative philosopher of medicine. Chatty monk -->
+  <NPCCharacter id="spc_wanderer_vlandia_0" name="{=XuxARPTM}Bitterdraught" voice="earnest" age="31" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Companion" />
+  <!-- boorish noble -->
+  <NPCCharacter id="spc_wanderer_vlandia_1" name="{=ntkipfCV}the Loud" voice="earnest" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Companion" />
+  <!-- bastard who went away to avoid complications for his family -->
+  <NPCCharacter id="spc_wanderer_vlandia_2" name="{=7lg12a57}the Brave" voice="earnest" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Companion" />
+  <!-- veteran. decent man haunted by looting of cities. hated being loyal to men who saved his lives who turn out to be killers -->
+  <NPCCharacter id="spc_wanderer_vlandia_3" name="{=ZCc3VFat}the Grizzled" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Companion" />
+  <!--the shark, butcher/criminal -->
+  <NPCCharacter id="spc_wanderer_vlandia_4" name="{=8o5SDCCJ}the Shark" voice="ironic" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Companion" />
+  <!-- longshoreman, fled dominating guild. revenge against gang leader -->
+  <NPCCharacter id="spc_wanderer_vlandia_5" name="{=WvwWX4me}Barrelchest" voice="softspoken" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Companion" />
+  <!-- loner - father fled to avoid feud with bailiff, then disappeared in a blizzard -->
+  <NPCCharacter id="spc_wanderer_vlandia_6" name="{=OArAImbM}of the Hills" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Companion" />
+  <!--female. ex brother of the woods. Like any other group of bandits. -->
+  <NPCCharacter id="spc_wanderer_vlandia_7" name="{=c5Kjcxsa}the Huntress" voice="ironic" age="26" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Companion" />
+  <!-- smith, struck dead a young knight who ran a boy down with his horse -->
+  <NPCCharacter id="spc_wanderer_vlandia_8" name="{=hrMatilh}the Smith" voice="softspoken" age="24" default_group="Infantry" is_template="true" is_female="false" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Companion" />
+  <!-- female bandit, left the woods because life expectancy too short -->
+  <NPCCharacter id="spc_wanderer_vlandia_9" name="{=7apnGFz7}the Black" voice="ironic" age="24" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Companion" />
+  <!--female engineer, father emigrant to empire, killed in riots -->
+  <NPCCharacter id="spc_wanderer_vlandia_10" name="{=6CAbkgS4}the Wainwright" voice="ironic" age="26" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" civilianTemplate="NPCCharacter.npc_companion_equipment_template_vlandia" occupation="Companion" />
+  <!--free company. we're not at war long enough - doesn't adapt to peace. spawn as prisoner -->
+  <!-- WANDERERS OF ASERAI -->
+  <!-- misanthropic, chip-on-shoulder illegitimate. nautical surgeon -->
+  <NPCCharacter id="spc_wanderer_aserai_0" name="{=bvjFhiDr}the Scholar" voice="ironic" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_companion_equipment_template_aserai" occupation="Companion" />
+  <!--Obsessed with own genealogy -->
+  <NPCCharacter id="spc_wanderer_aserai_1" name="{=vtXRptVa}the Golden" voice="earnest" age="23" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_companion_equipment_template_aserai" occupation="Companion" />
+  <!--The falcon, chivalrous, but thinks great clans hog the glory -->
+  <NPCCharacter id="spc_wanderer_aserai_2" name="{=TyxXbqVw}the Falcon" voice="ironic" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_companion_equipment_template_aserai" occupation="Companion" />
+  <!--professional, fighter and killer. often provoked enemies. fell out with lord over a slave woman that he sold -->
+  <NPCCharacter id="spc_wanderer_aserai_3" name="{=4GIoPUen}the Swordsman" voice="softspoken" age="33" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_companion_equipment_template_aserai" occupation="Companion" />
+  <!-- "The Prince", fitiwi whom a guard captain tried to corrupt -->
+  <NPCCharacter id="spc_wanderer_aserai_4" name="{=rgdi5Sxa}the Prince" voice="ironic" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_companion_equipment_template_aserai" occupation="Companion" />
+  <!-- "The Hyena" (contemptuous killer) -->
+  <NPCCharacter id="spc_wanderer_aserai_5" name="{=OFWvD0xe}the Hyena" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_companion_equipment_template_aserai" occupation="Companion" />
+  <!--of the Wastes - 'the searing gravel plain knows me' -->
+  <NPCCharacter id="spc_wanderer_aserai_6" name="{=muC2SGlM}of the Wastes" voice="curt" age="31" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_companion_equipment_template_aserai" occupation="Companion" />
+  <!-- female member of clan that lost power -->
+  <NPCCharacter id="spc_wanderer_aserai_7" name="{=c5Kjcxsa}the Wanderer" voice="curt" age="25" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_companion_equipment_template_aserai" occupation="Companion" />
+  <!--unlucky merchant -->
+  <NPCCharacter id="spc_wanderer_aserai_8" name="{=XBJtv4mD}the Spicevendor" voice="softspoken" age="28" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_companion_equipment_template_aserai" occupation="Companion" />
+  <!-- female alley urchin -->
+  <NPCCharacter id="spc_wanderer_aserai_9" name="{=NWuGUi4p}the Leopardess" voice="ironic" age="22" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_companion_equipment_template_aserai" occupation="Companion" />
+  <NPCCharacter id="spc_wanderer_aserai_10" name="{=cP1o8eUs}the Engineer" voice="ironic" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_aserai" civilianTemplate="NPCCharacter.npc_companion_equipment_template_aserai" occupation="Companion" />
+  <!--WANDERERS OF KHUZAIT -->
+  <!--engineer, sent to learn trade -->
+  <NPCCharacter id="spc_wanderer_khuzait_0" name="{=sdzaip5J}the Knowing" voice="softspoken" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" civilianTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" occupation="Companion" />
+  <!-- the hawk, curt voice. Rural clan nemesis. Easily insulted, killed a man's brother over a girl -->
+  <NPCCharacter id="spc_wanderer_khuzait_1" name="{=j2nVPqIX}the Hawk" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" civilianTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" occupation="Companion" />
+  <!-- the fatherless, backed out of a family feud -->
+  <NPCCharacter id="spc_wanderer_khuzait_2" name="{=agS5lIg7}the Fatherless" voice="earnest" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" civilianTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" occupation="Companion" />
+  <!-- ironeye, professional soldier. infantryman -->
+  <NPCCharacter id="spc_wanderer_khuzait_3" name="{=QWbgE4bw}Ironeye" voice="curt" age="32" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" civilianTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" occupation="Companion" />
+  <!--the proud, turned on protectors. lord as nemesis -->
+  <NPCCharacter id="spc_wanderer_khuzait_4" name="{=ykTARD4b}the Outcast" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" civilianTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" occupation="Companion" />
+  <!-- 'the mad' soft voice, sinister? Pickpocket. Have gang leader as nemesis? -->
+  <NPCCharacter id="spc_wanderer_khuzait_5" name="{=q5QjQyde}the Mad" voice="softspoken" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" civilianTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" occupation="Companion" />
+  <!--the grey falcon, lone survivor of a hunted steppe clan -->
+  <NPCCharacter id="spc_wanderer_khuzait_6" name="{=seS9ZZUW}the Grey Falcon" voice="curt" age="20" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" civilianTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" occupation="Companion" />
+  <!--the she-wolf - taken by empire, slave in arena. CHANGED TO AT-START-->
+  <NPCCharacter id="spc_wanderer_khuzait_7" name="{=3wzexaA7}the She-Wolf" voice="curt" age="28" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" civilianTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" occupation="Companion" />
+  <!-- lone daughter of mother -->
+  <NPCCharacter id="spc_wanderer_khuzait_8" name="{=OIXub6bS}the Alone" voice="curt" age="29" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" civilianTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" occupation="Companion" />
+  <!-- tomboy daughter of caravan guard -->
+  <NPCCharacter id="spc_wanderer_khuzait_9" name="{=KY2zbWkj}the Swift" voice="ironic" age="21" is_female="true" is_hero="false" default_group="Infantry" is_template="true" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" civilianTemplate="NPCCharacter.npc_companion_equipment_template_khuzait" occupation="Companion" />
+</NPCCharacters>

@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Module>
-	<Name value = "ZInkitMod_Troop"/>
-	<Id value = "ZInkitMod_Troop"/>
+	<Name value = "ZInkitModTroop"/>
+	<Id value = "ZInkitModTroop"/>
 	<Version value = "e1.0.0"/>
 	<DefaultModule value="false"/>
 	<SingleplayerModule value="true"/>
@@ -13,12 +13,9 @@
 		<DependedModule Id="CustomBattle"/>
 		<DependedModule Id="StoryMode" />
 		<DependedModule Id="ModLib"/>
-		<DependedModule Id="AdonnaysTroopChanger"/>
 		<DependedModule Id="ZInkitMod"/>
-		<DependedModule Id="ZInkitMod_Craft"/>
 	</DependedModules>
 	<SubModules>
-
 	</SubModules>
 	<Xmls>          
 		<XmlNode>
@@ -26,6 +23,7 @@
 			<IncludedGameTypes>
 				<GameType value = "Campaign"/>
 				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
 			</IncludedGameTypes>
 		</XmlNode>                            
 	</Xmls>
