@@ -20,7 +20,7 @@
              is_mountable="true"
              extra_health="800"
              is_pack_animal="true"
-             modifier_group="horse">
+             modifier_group="inkit_item">
         <AdditionalMeshes>
           <Mesh name="horse_mane"
                 affected_by_cover="true" />
@@ -28,7 +28,7 @@
         <Materials>
           <Material name="horse_white_mat">
             <MeshMultipliers>
-              <MeshMultiplier mesh_multiplier="FF303030"
+              <MeshMultiplier mesh_multiplier="FFFFFF30"
                               percentage="1.0" />
             </MeshMultipliers>
           </Material>
@@ -40,7 +40,7 @@
 
   <Item id="inkit_bard"
         name="{=inkbards}G-Bard"
-        mesh="horse_harness_imperial_b_clotest"
+        mesh="horse_harness_b"
         subtype="body_armor"
         weight="0.01"
         difficulty="0"
@@ -54,8 +54,7 @@
              charge_bonus="0"
              mane_cover_type="all"
              family_type="1"
-             modifier_group="chain"
-             reins_mesh="horse_harness_imperial_b_rein"
+             modifier_group="inkit_item"
              material_type="Plate" />
     </ItemComponent>
     <Flags Civilian="true" />
@@ -75,7 +74,7 @@
              arm_armor="100"
              has_gender_variations="false"
              covers_body="false"
-             modifier_group="Leather"
+             modifier_group="inkit_item"
              material_type="Plate" />
     </ItemComponent>
     <Flags Civilian="true" />
@@ -109,6 +108,7 @@
               passby_sound_code="event:/mission/combat/missile/passby"
               rotation="0, -80, 25"
               sticking_position="0,-0.97,0"
+              modifier_group="inkit_item"
               sticking_rotation="90,0,0"
               center_of_mass="-0,00.05,-0.0">
         <WeaponFlags Consumable="true"
@@ -136,10 +136,10 @@
         item_holsters="quiver_bolts:quiver_bolts_2:quiver_back_middle:quiver_back_top">
     <ItemComponent>
       <Weapon weapon_class="Bolt"
-              stack_amount="600"
-              thrust_speed="50"
-              speed_rating="120"
-              missile_speed="120"
+              stack_amount="900"
+              thrust_speed="0"
+              speed_rating="0"
+              missile_speed="10"
               weapon_length="80"
               thrust_damage="10"
               item_usage=""
@@ -147,47 +147,31 @@
               physics_material="missile"
               sticking_position="0,-0.37,0"
               sticking_rotation="90,0,0"
+              modifier_group="inkit_item"
               center_of_mass="0,0,-0.1">
         <WeaponFlags AttachAmmoToVisual="true"
                      Consumable="true"
                      AmmoSticksWhenShot="true"
                      CanPenetrateShield="true"
                      AmmoBreaksOnBounceBack="true"
-                     MultiplePenetration="true" />
+                     MultiplePenetration="true"
+                     LeavesTrail="true" />
       </Weapon>
     </ItemComponent>
     <Flags ForceAttachOffHandPrimaryItemBone="true" Civilian="true"/>
   </Item>
 
-  <Item id="inkit_beer"
-        name="{=inkbeers}G-Beer"
+  <Item id="inkit_fish"
+        name="{=inkbeers}G-Fish"
         mesh="amphora_slim"
-        item_category="wine"
+        item_category="fish"
         appearance="10"
         IsFood="true"
         value="1"
         weight="0.001"
         Type="Goods">
     <ItemComponent>
-      <Food morale_bonus="50" />
-    </ItemComponent>
-    <Flags Civilian="true" />
-  </Item>
-
-  <Item id="inkit_goose"
-        name="{=inkgoose}G-Goose"
-        mesh="goose_model_a"
-        item_category="animal"
-        appearance="1"
-        value="1"
-        weight="5"
-        Type="Animal">
-    <ItemComponent>
-      <Horse monster="Monster.goose"
-             maneuver="70"
-             speed="100"
-             charge_damage="50"
-             body_length="120" />
+      <Trade morale_bonus="100" />
     </ItemComponent>
     <Flags Civilian="true" />
   </Item>
@@ -209,21 +193,22 @@
     <ItemComponent>
       <Weapon weapon_class="Crossbow"
               ammo_class="Bolt"
-              ammo_limit="10"
+              ammo_limit="30"
               thrust_speed="100"
               speed_rating="150"
               missile_speed="400"
               weapon_length="130"
               accuracy="120"
-              thrust_damage="140"
+              thrust_damage="170"
               thrust_damage_type="Pierce"
               item_usage="crossbow_fast"
               physics_material="wood_weapon"
-              center_of_mass="0,0,0.4">
+              modifier_group="inkit_item"
+              center_of_mass="0,0,0.1">
         <WeaponFlags RangedWeapon="true"
                      HasString="true"
                      NotUsableWithOneHand="true"
-                     AutoReload="false"
+                     CanPenetrateShield="true"
                      TwoHandIdleOnMount="true" />
       </Weapon>
     </ItemComponent>
@@ -249,10 +234,11 @@
               missile_speed="400"
               weapon_length="118"
               accuracy="120"
-              thrust_damage="150"
+              thrust_damage="130"
               thrust_damage_type="Pierce"
               item_usage="bow"
               physics_material="wood_weapon"
+              modifier_group="inkit_item"
               center_of_mass="0.15,0,0">
         <WeaponFlags RangedWeapon="true"
                      HasString="true"

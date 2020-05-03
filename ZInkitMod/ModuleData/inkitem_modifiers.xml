@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemModifierGroups>
+	<ItemModifierGroup id="inkit_item">
+		<ItemModifier id="no_modifier" probability="100"/>
+	</ItemModifierGroup>
+</ItemModifierGroups>

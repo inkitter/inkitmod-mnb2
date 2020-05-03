@@ -5,7 +5,7 @@
 				is_female="true"
                 level="1"
                 civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit"
-                name="{=inktrgrd}Inkit Guard"
+                name="{=inkbowma}IBower"
 				occupation="Mercenary"
                 is_basic_troop="true"
                 culture="Culture.neutral_culture">
@@ -14,18 +14,18 @@
 			<BodyPropertiesMax version="4" age="33.01" weight="0.3" build="0.01"  key="0022840FC0FC3010A97B966BAAA6A79686E8889B96BAB8984BBBBF9D88DA774802704724F796C9A80000000000000FFE00000000000000000000000050E04000"  />
 		</face>
 		<skills>
-			<skill id="Athletics"  value="250" />
-			<skill id="Riding"     value="0" />
-			<skill id="OneHanded"  value="250" />
+			<skill id="Athletics"  value="200" />
+			<skill id="Riding"     value="50" />
+			<skill id="OneHanded"  value="200" />
 			<skill id="TwoHanded"  value="200" />
-			<skill id="Polearm"    value="0" />
-			<skill id="Bow"        value="250" />
-			<skill id="Crossbow"   value="0" />
-			<skill id="Throwing"   value="0" />
+			<skill id="Polearm"    value="50" />
+			<skill id="Bow"        value="200" />
+			<skill id="Crossbow"   value="50" />
+			<skill id="Throwing"   value="50" />
 		</skills>
 		<equipmentSet>
-			<!-- <equipment slot="Item0"         id="Item.inkit_long_bow" /> -->
-			<equipment slot="Item0"         id="Item.noble_long_bow" />
+			<equipment slot="Item0"         id="Item.inkit_long_bow" />
+			<!-- <equipment slot="Item0"         id="Item.noble_long_bow" /> -->
 			<equipment slot="Item1"         id="Item.inkit_arrows" />
 			<equipment slot="Item2"         id="Item.inkit_sword_t1" />
 			<equipment slot="Item3"         id="Item.steel_round_shield" />
@@ -34,15 +34,54 @@
 		</equipmentSet>
 		<upgrade_targets>
 			<upgrade_target id="NPCCharacter.inkit_guard_t2" />
+			<upgrade_target id="NPCCharacter.inkit_guard_t2g" />
 		</upgrade_targets>
 	</NPCCharacter>
 
 	<NPCCharacter id="inkit_guard_t2"
-                default_group="Ranged"
+                default_group="HorseArcher"
 				is_female="true"
-                level="1"
+                level="31"
                 civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit"
-                name="{=inktrgrd}Inkit Gunner"
+                name="{=inkrider}IRider"
+				occupation="Mercenary"
+                is_basic_troop="false"
+                culture="Culture.neutral_culture">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.3" build="0.01"  key="0000040000FC3001287644075661326233C387585545552284566C438364514302304724F35355650000000000000FFE00000000000000000000000050501000"  />
+			<BodyPropertiesMax version="4" age="33.01" weight="0.3" build="0.01"  key="0022840FC0FC3010A97B966BAAA6A79686E8889B96BAB8984BBBBF9D88DA774802704724F796C9A80000000000000FFE00000000000000000000000050E04000"  />
+		</face>
+		<skills>
+			<skill id="Athletics"  value="200" />
+			<skill id="Riding"     value="200" />
+			<skill id="OneHanded"  value="200" />
+			<skill id="TwoHanded"  value="200" />
+			<skill id="Polearm"    value="200" />
+			<skill id="Bow"        value="200" />
+			<skill id="Crossbow"   value="200" />
+			<skill id="Throwing"   value="200" />
+		</skills>
+		<equipmentSet>
+			<equipment slot="Item0"         id="Item.inkit_long_bow" />
+			<equipment slot="Item1"         id="Item.inkit_arrows" />
+			<equipment slot="Item2"         id="Item.inkit_sword_t1" />
+			<equipment slot="Item3"         id="Item.steel_round_shield" />
+			<equipment slot="Body"          id="Item.empire_dress" />
+			<equipment slot="Leg"           id="Item.inkit_shoe" />
+			<equipment slot="Horse"         id="Item.inkit_horse" />
+			<equipment slot="HorseHarness"  id="Item.inkit_bard" />
+		</equipmentSet>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.inkit_guard_t3" />
+		</upgrade_targets>
+	</NPCCharacter>
+
+	<NPCCharacter id="inkit_guard_t3"
+                default_group="HorseArcher"
+				is_female="true"
+                level="50"
+                civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit"
+                name="{=inkroyal}IRoyal"
 				occupation="Mercenary"
                 is_basic_troop="false"
                 culture="Culture.neutral_culture">
@@ -52,13 +91,48 @@
 		</face>
 		<skills>
 			<skill id="Athletics"  value="250" />
-			<skill id="Riding"     value="0" />
-			<skill id="OneHanded"  value="200" />
-			<skill id="TwoHanded"  value="200" />
-			<skill id="Polearm"    value="0" />
+			<skill id="Riding"     value="250" />
+			<skill id="OneHanded"  value="250" />
+			<skill id="TwoHanded"  value="250" />
+			<skill id="Polearm"    value="250" />
 			<skill id="Bow"        value="250" />
 			<skill id="Crossbow"   value="250" />
-			<skill id="Throwing"   value="0" />
+			<skill id="Throwing"   value="250" />
+		</skills>
+		<equipmentSet>
+			<equipment slot="Item0"         id="Item.inkit_long_bow" />
+			<equipment slot="Item1"         id="Item.inkit_arrows" />
+			<equipment slot="Item2"         id="Item.inkit_sword_t1" />
+			<equipment slot="Item3"         id="Item.steel_round_shield" />
+			<equipment slot="Body"          id="Item.empire_dress" />
+			<equipment slot="Leg"           id="Item.inkit_shoe" />
+			<equipment slot="Horse"         id="Item.inkit_horse" />
+			<equipment slot="HorseHarness"  id="Item.inkit_bard" />
+		</equipmentSet>
+	</NPCCharacter>
+
+	<NPCCharacter id="inkit_guard_t2g"
+                default_group="Ranged"
+				is_female="true"
+                level="31"
+                civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit"
+                name="{=inkguner}IGunner"
+				occupation="Mercenary"
+                is_basic_troop="false"
+                culture="Culture.neutral_culture">
+		<face>
+			<BodyProperties version="4" age="22.01" weight="0.3" build="0.01"  key="0000040000FC3001287644075661326233C387585545552284566C438364514302304724F35355650000000000000FFE00000000000000000000000050501000"  />
+			<BodyPropertiesMax version="4" age="33.01" weight="0.3" build="0.01"  key="0022840FC0FC3010A97B966BAAA6A79686E8889B96BAB8984BBBBF9D88DA774802704724F796C9A80000000000000FFE00000000000000000000000050E04000"  />
+		</face>
+		<skills>
+			<skill id="Athletics"  value="200" />
+			<skill id="Riding"     value="50" />
+			<skill id="OneHanded"  value="200" />
+			<skill id="TwoHanded"  value="200" />
+			<skill id="Polearm"    value="50" />
+			<skill id="Bow"        value="200" />
+			<skill id="Crossbow"   value="200" />
+			<skill id="Throwing"   value="50" />
 		</skills>
 		<equipmentSet>
 			<equipment slot="Item0"         id="Item.inkit_repeater_launcher" />
@@ -69,16 +143,16 @@
 			<equipment slot="Leg"           id="Item.inkit_shoe" />
 		</equipmentSet>
 		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.inkit_guard_t3" />
+			<upgrade_target id="NPCCharacter.inkit_guard_t3g" />
 		</upgrade_targets>
 	</NPCCharacter>
 
-	<NPCCharacter id="inkit_guard_t3"
+	<NPCCharacter id="inkit_guard_t3g"
                 default_group="HorseArcher"
 				is_female="true"
-                level="1"
+                level="50"
                 civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit"
-                name="{=inktrgrd}Inkit Royal"
+                name="{=inkrgunr}IAssult"
 				occupation="Mercenary"
                 is_basic_troop="false"
                 culture="Culture.neutral_culture">
@@ -87,19 +161,18 @@
 			<BodyPropertiesMax version="4" age="33.01" weight="0.3" build="0.01"  key="0022840FC0FC3010A97B966BAAA6A79686E8889B96BAB8984BBBBF9D88DA774802704724F796C9A80000000000000FFE00000000000000000000000050E04000"  />
 		</face>
 		<skills>
-			<skill id="Athletics"  value="200" />
+			<skill id="Athletics"  value="250" />
 			<skill id="Riding"     value="250" />
 			<skill id="OneHanded"  value="250" />
-			<skill id="TwoHanded"  value="200" />
-			<skill id="Polearm"    value="200" />
+			<skill id="TwoHanded"  value="250" />
+			<skill id="Polearm"    value="250" />
 			<skill id="Bow"        value="250" />
-			<skill id="Crossbow"   value="200" />
-			<skill id="Throwing"   value="200" />
+			<skill id="Crossbow"   value="250" />
+			<skill id="Throwing"   value="250" />
 		</skills>
 		<equipmentSet>
-			<equipment slot="Item0"         id="Item.inkit_long_bow" />
-			<equipment slot="Item1"         id="Item.inkit_arrows" />
-			<!-- <equipment slot="Item2"         id="Item.ambassador_sword_t3" /> -->
+			<equipment slot="Item0"         id="Item.inkit_repeater_launcher" />
+			<equipment slot="Item1"         id="Item.inkit_blots" />
 			<equipment slot="Item2"         id="Item.inkit_sword_t1" />
 			<equipment slot="Item3"         id="Item.steel_round_shield" />
 			<equipment slot="Body"          id="Item.empire_dress" />

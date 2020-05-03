@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ATCTroops>
 	<source_troop id="sturgian_recruit">
-		<target_troop id ="inkit_guard_t1" percent="50" playeronly="true" cultureonly="false" kingdomonly="false"/>
+		<target_troop id ="inkit_guard_t1" percent="70" playeronly="true" cultureonly="false" kingdomonly="false"/>
 	</source_troop>
 	<source_troop id="imperial_recruit">
-		<target_troop id="inkit_guard_t1" percent="50" playeronly="true" cultureonly="false" kingdomonly="false"/>
+		<target_troop id="inkit_guard_t1" percent="70" playeronly="true" cultureonly="false" kingdomonly="false"/>
 	</source_troop>
 	<source_troop id="vlandian_recruit">
-		<target_troop id="inkit_guard_t1" percent="50" playeronly="true" cultureonly="false" kingdomonly="false"/>
+		<target_troop id="inkit_guard_t1" percent="70" playeronly="true" cultureonly="false" kingdomonly="false"/>
 	</source_troop>
 	<source_troop id="aserai_recruit">
-		<target_troop id="inkit_guard_t1" percent="50" playeronly="true" cultureonly="false" kingdomonly="false"/>
+		<target_troop id="inkit_guard_t1" percent="70" playeronly="true" cultureonly="false" kingdomonly="false"/>
 	</source_troop>
 
 	<!-- <source_troop id="player_clan_basic">

@@ -5,30 +5,31 @@
                 formation_position_preference="Front"
                 is_hero="false"
                 name="{=imiWg976}wanderer_equipment"
+                level="1"
                 is_template="true">
     <face>
       <face_key_template value="NPCCharacter.townswoman_empire" />
       <BodyProperties version="4" key="00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000" />
     </face>
     <skills>
-      <skill id="OneHanded" value="25" />
-      <skill id="TwoHanded" value="0" />
-      <skill id="Polearm" value="0" />
-      <skill id="Bow" value="150" />
-      <skill id="Crossbow" value="0" />
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="50" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="50" />
       <skill id="Throwing" value="0" />
       <skill id="Riding" value="50" />
       <skill id="Athletics" value="50" />
       <skill id="Crafting" value="0" />
       <skill id="Tactics" value="0" />
-      <skill id="Scouting" value="100" />
+      <skill id="Scouting" value="0" />
       <skill id="Roguery" value="0" />
       <skill id="Leadership" value="0" />
       <skill id="Charm" value="0" />
       <skill id="Trade" value="0" />
       <skill id="Steward" value="0" />
-      <skill id="Medicine" value="100" />
-      <skill id="Engineering" value="100" />
+      <skill id="Medicine" value="0" />
+      <skill id="Engineering" value="0" />
     </skills>
     <equipmentSet>
       <equipment slot="Item0" id="Item.inkit_long_bow" />

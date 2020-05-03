@@ -7,7 +7,7 @@
     <Pieces>
       <Piece id="ink_blade"
              Type="Blade"
-             scale_factor="150" />
+             scale_factor="170" />
       <Piece id="ink_guard"
              Type="Guard"
              scale_factor="100" />
@@ -27,7 +27,7 @@
     <Pieces>
       <Piece id="ink_spearblade"
              Type="Blade"
-             scale_factor="150" />
+             scale_factor="170" />
       <Piece id="ink_guard"
              Type="Guard"
              scale_factor="100" />

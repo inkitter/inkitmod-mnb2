@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-  <NPCCharacter id="player_char_creation_empire_5_m"
+  <NPCCharacter id="player_char_creation_empire_2_m"
                 name="{=noTLVPDD}Doctor"
                 default_group="General"
                 is_hero="false"
                 culture="Culture.empire"
-                skill_template="NPCCharacter.npc_companion_equipment_template_inkit" 
                 battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" 
-                civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit">
+                civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit"
+                skill_template="NPCCharacter.npc_companion_equipment_template_inkit" >
     <Traits>
       <Trait id="Honor" value="1" />
       <Trait id="Mercy" value="1" />
@@ -23,23 +23,30 @@
     <equipment slot="Leg" id="Item.inkit_shoe" />
     <equipment slot="Horse" id="Item.inkit_horse" />
     <equipment slot="HorseHarness" id="Item.inkit_bard" />
+    
+    <equipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.inkit_long_bow" />
+      <equipment slot="Item1" id="Item.inkit_arrows" />
+      <equipment slot="Item2" id="Item.inkit_sword_t1" />
+      <equipment slot="Body" id="Item.empire_dress_b" />
+      <equipment slot="Leg" id="Item.inkit_shoe" />
+      <equipment slot="Horse" id="Item.inkit_horse" />
+      <equipment slot="HorseHarness" id="Item.inkit_bard" />
+    </equipmentSet>
   </NPCCharacter>
 
-  <NPCCharacter id="player_char_creation_khuzait_5_m"
+  <NPCCharacter id="player_char_creation_khuzait_2_m"
                 name="{=bHx8jaeI}Warrior"
                 default_group="General"
                 is_hero="false"
                 culture="Culture.khuzait"
-                skill_template="NPCCharacter.npc_companion_equipment_template_inkit" 
                 battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" 
-                civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit">
+                civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit"
+                skill_template="NPCCharacter.npc_companion_equipment_template_inkit" >
     <Traits>
       <Trait id="Honor" value="1" />
       <Trait id="Mercy" value="1" />
-      <Trait id="Generosity" value="1" />
-      <Trait id="Valor" value="1" />
       <Trait id="Calculating" value="1" />
-      <Trait id="Oligarchic" value="1" />
     </Traits>
     <equipment slot="Item0" id="Item.inkit_long_bow" />
     <equipment slot="Item1" id="Item.inkit_arrows" />
@@ -48,5 +55,15 @@
     <equipment slot="Leg" id="Item.inkit_shoe" />
     <equipment slot="Horse" id="Item.inkit_horse" />
     <equipment slot="HorseHarness" id="Item.inkit_bard" />
+    
+    <equipmentSet civilian="true">
+      <equipment slot="Item0" id="Item.inkit_long_bow" />
+      <equipment slot="Item1" id="Item.inkit_arrows" />
+      <equipment slot="Item2" id="Item.inkit_sword_t1" />
+      <equipment slot="Body" id="Item.empire_dress_b" />
+      <equipment slot="Leg" id="Item.inkit_shoe" />
+      <equipment slot="Horse" id="Item.inkit_horse" />
+      <equipment slot="HorseHarness" id="Item.inkit_bard" />
+    </equipmentSet>
   </NPCCharacter>
 </NPCCharacters>

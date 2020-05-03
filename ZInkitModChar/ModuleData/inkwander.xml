@@ -1,64 +1,225 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-    <!-- <feats>
-      <feat id="BattanianForestAgility" value="1" />
-      <feat id="VlandianBattlePerception" value="1" />
-      <feat id="BattanianForestAgility" value="1" />
-      <feat id="KhuzaitCavalryAgility" value="1" />
-      <feat id="SturgianSnowAgility" value="1" />
-    </feats> -->
 <NPCCharacters>
-  <NPCCharacter id="spc_wanderer_inkit_a0" name="{=inkwandr}Ink" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_inkit_e1" name="{=inkcmmnd}Com" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
     <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
     <Traits>
       <Trait id="RomanHair" value="1" />
     </Traits>
+    <skills>
+      <skill id="Leadership" value="150" />
+    </skills>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_inkit_b0" name="{=inkwandr}Ink" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_inkit_e2" name="{=inkcmmnd}Com" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
     <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
     <Traits>
       <Trait id="RomanHair" value="1" />
     </Traits>
+    <skills>
+      <skill id="Leadership" value="150" />
+    </skills>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_inkit_c0" name="{=inkwandr}Ink" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_inkit_e3" name="{=inkcmmnd}Com" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
     <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
     <Traits>
       <Trait id="RomanHair" value="1" />
     </Traits>
+    <skills>
+      <skill id="Leadership" value="150" />
+    </skills>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_inkit_a1" name="{=inkwandr}Ink" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_inkit_e4" name="{=inkmedic}Med" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.empire" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
     <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
     <Traits>
       <Trait id="RomanHair" value="1" />
     </Traits>
+    <skills>
+      <skill id="Medicine" value="150" />
+    </skills>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_inkit_a2" name="{=inkwandr}Ink" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+
+  <NPCCharacter id="spc_wanderer_inkit_v1" name="{=inkengin}Mec" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
     <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
     <Traits>
       <Trait id="RomanHair" value="1" />
     </Traits>
+    <skills>
+      <skill id="Engineering" value="150" />
+    </skills>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_inkit_a3" name="{=inkwandr}Ink" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_inkit_v2" name="{=inkengin}Mec" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
     <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
     <Traits>
       <Trait id="RomanHair" value="1" />
     </Traits>
+    <skills>
+      <skill id="Engineering" value="150" />
+    </skills>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_inkit_a4" name="{=inkwandr}Ink" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_inkit_v3" name="{=inkmedic}Med" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
     <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
     <Traits>
       <Trait id="RomanHair" value="1" />
     </Traits>
+    <skills>
+      <skill id="Medicine" value="150" />
+    </skills>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_inkit_a5" name="{=inkwandr}Ink" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+  <NPCCharacter id="spc_wanderer_inkit_v4" name="{=inkmedic}Med" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.vlandia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
     <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
     <Traits>
       <Trait id="RomanHair" value="1" />
     </Traits>
+    <skills>
+      <skill id="Medicine" value="150" />
+    </skills>
   </NPCCharacter>
-  <NPCCharacter id="spc_wanderer_inkit_b5" name="{=inkwandr}Ink" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+
+  <NPCCharacter id="spc_wanderer_inkit_s1" name="{=inkscout}Sct" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
     <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
     <Traits>
       <Trait id="RomanHair" value="1" />
     </Traits>
+    <skills>
+      <skill id="Scouting" value="150" />
+    </skills>
   </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_inkit_s2" name="{=inkscout}Sct" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Scouting" value="150" />
+    </skills>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_inkit_s3" name="{=inkTrade}Trd" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Trade" value="150" />
+    </skills>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_inkit_s4" name="{=inkTrade}Trd" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.sturgia" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Trade" value="150" />
+    </skills>
+  </NPCCharacter>
+
+  <NPCCharacter id="spc_wanderer_inkit_b1" name="{=inkTrade}Trd" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Trade" value="150" />
+    </skills>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_inkit_b2" name="{=inkTrade}Trd" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Trade" value="150" />
+    </skills>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_inkit_b3" name="{=inkstwrd}Mng" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Steward" value="150" />
+    </skills>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_inkit_b4" name="{=inkstwrd}Mng" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.battania" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Steward" value="150" />
+    </skills>
+  </NPCCharacter>
+
+  <NPCCharacter id="spc_wanderer_inkit_a1" name="{=inkstwrd}Mng" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Steward" value="150" />
+    </skills>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_inkit_a2" name="{=inkstwrd}Mng" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Steward" value="150" />
+    </skills>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_inkit_a3" name="{=inkscout}Sct" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Scouting" value="150" />
+    </skills>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_inkit_a4" name="{=inkscout}Sct" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.aserai" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Scouting" value="150" />
+    </skills>
+  </NPCCharacter>
+
+  <NPCCharacter id="spc_wanderer_inkit_k1" name="{=inkcmmnd}Com" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Leadership" value="150" />
+    </skills>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_inkit_k2" name="{=inkcmmnd}Com" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Leadership" value="150" />
+    </skills>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_inkit_k3" name="{=inkcmmnd}Com" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Leadership" value="150" />
+    </skills>
+  </NPCCharacter>
+  <NPCCharacter id="spc_wanderer_inkit_k4" name="{=inkcmmnd}Com" voice="softspoken" age="22" default_group="Cavalry" is_hero="true" is_template="true" is_female="true" culture="Culture.khuzait" battleTemplate="NPCCharacter.npc_companion_equipment_template_inkit" civilianTemplate="NPCCharacter.npc_companion_equipment_template_inkit" skill_template="NPCCharacter.npc_companion_equipment_template_inkit" level="1" occupation="Wanderer">
+    <face><face_key_template value="NPCCharacter.townswoman_empire" /></face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+    </Traits>
+    <skills>
+      <skill id="Leadership" value="150" />
+    </skills>
+  </NPCCharacter>
+
 </NPCCharacters>
