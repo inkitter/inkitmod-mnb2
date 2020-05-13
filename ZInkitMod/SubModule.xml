@@ -51,6 +51,6 @@
 		</XmlNode>
 		<XmlNode>                
 			<XmlName id="ItemModifiers" path="inkitem_modifiers"/>
-		</XmlNode>      
+		</XmlNode>
 	</Xmls>
 </Module>
